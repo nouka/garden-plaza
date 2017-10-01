@@ -1,0 +1,28 @@
+﻿.viewer {
+	position:absolute;
+	top:224px;
+	left:160px;
+
+	width: 600px;
+	height: 465px;
+	text-align: left;
+	overflow: hidden;
+}
+
+.viewer ul {
+	position:absolute;
+	width: 600px;
+	height: 450px;
+	text-align: left;
+	overflow: hidden;
+	position: relative;
+}
+
+.viewer ul li {
+	position:absolute;
+
+	width: 600px;
+	height: 450px;
+
+}
+

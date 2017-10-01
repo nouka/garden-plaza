@@ -1,0 +1,17 @@
+﻿.table1 {
+	position:absolute;
+	top:420px;
+	left:340px;
+}
+
+.headline{
+	position:relative;
+	border-top-width:3px;
+
+}
+
+.cont{
+	position:relative;
+	padding-top:15px;
+        padding-bottom:15px;
+}

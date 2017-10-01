@@ -1,0 +1,60 @@
+﻿.gbanner {
+	position:absolute;
+	top:450px;
+	left:220px;
+}
+
+.banner {
+	position:absolute;
+	top:280px;
+	left:340px;
+}
+
+.text{
+	position:absolute;
+	top:400px;
+	left:300px;
+}
+.text p{
+	color:#008000;
+	font-weight:900;
+	text-align:center;
+}
+.frame {
+	position: relative;
+    	display: inline-block;
+    	font-size: 0;
+    	line-height: 0;
+}
+
+.frame img {
+	margin: 0; padding: 0;
+    	border: 0;
+	border-radius: 10px;
+}
+
+.frame:after {
+	position: absolute;
+    	left: 0; top: 0; right: 0; bottom: 0;
+    	-moz-box-shadow: inset 0px 0px 15px 15px #fff;
+    	-webkit-box-shadow: inset 0px 0px 15px 15px #fff;
+    	box-shadow: inset 0px 0px 15px 15px #fff;
+    	content: " ";
+
+}
+
+.fobg {
+	position: absolute;
+	background: -moz-linear-gradient(top,#228B22, #339900 50%,#339900 50%,#339900);
+	background: -webkit-gradient(linear, left top, left bottom, from(#228B22), color-stop(0.5,#33CC00), color-stop(0.5,#33CC00), to(#228B22));
+	border: 0px solid #228B22;
+	border-radius: 4px;  
+	-moz-border-radius: 4px;  
+	-webkit-border-radius: 4px;  
+	color:#FFFFFF;
+	font-size:18px;
+	font-family: "HGP創英角ﾎﾟｯﾌﾟ体",serif;
+	width: 210px;
+	height:20px;
+	padding: 10px 0;
+}

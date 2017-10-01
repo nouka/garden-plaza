@@ -1,0 +1,34 @@
+﻿.bx-pager a {
+	background: #666;
+	text-indent: -9999px;/*数字表示をブラウザ外に押しやる*/
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	-moz-border-radius: 5px;/*角丸指定 四隅を丸くすることで10pxの●に*/
+	-webkit-border-radius: 5px;/*角丸指定*/
+	border-radius: 5px;/*角丸指定*/
+}
+.bx-pager a:hover,
+.bx-pager a.active {
+	background: #2E8B57;
+}
+.bx-prev {
+	left: 0px;
+	background: url(prev01.png) no-repeat;/*prev用画像*/
+}
+.bx-next {
+	right: 0px;
+	background: url(next01.png) no-repeat;/*next用画像*/
+}
+.bx-controls-direction a {
+	position: absolute;
+	margin-top: -16px;
+	width: 35px;/*使用画像に応じて指定*/
+	height: 35px;/*使用画像に応じて指定*/
+	text-indent: -9999px;/*画像置換のためテキストを押しやる*/
+	z-index: 9999;
+}
+.bx-pager-item{ 
+	display:inline-block
+;}
